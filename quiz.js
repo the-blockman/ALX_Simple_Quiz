@@ -15,3 +15,7 @@ function checkAnswer() {
       ? "Correct! Well done."
       : "That's incorrect. Try again!";
 }
+
+const submit = document.getElementById("submit-answer");
+
+submit.addEventListener("click", checkAnswer);
